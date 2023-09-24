@@ -7,6 +7,8 @@
   --color-span: #404bbf;
   --color-border: #e7e9fc;
   --color-footer-link: #31d0aa;
+  --color-backdrop: #FCFCFC;
+  --color-label: #8E8F99;
   }
 
 /* global */
@@ -561,4 +563,123 @@ margin-bottom: 16px;
 
 .footer-svg-item {
     fill: var(--color-background-white);
+}
+
+/* modal */
+
+.backdrop {
+    position: fixed;
+    inset: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    opacity: 0;
+visibility: hidden;
+pointer-events: none;
+}
+
+.is-open {
+    opacity: 1;
+visibility: visible;
+pointer-events: auto;
+}
+
+.is-hiden {
+    display: none;
+}
+
+.modal {
+    position: relative;
+    background-color: var(--color-backdrop);
+    border-radius: 15px;
+    height: 100%;
+    max-height: 584px;
+    width: 100%;
+    max-width: 408px;
+    padding: 72px 24px 24px 24px;
+}
+
+.modal-close {
+    position: absolute;
+    top: 24px;
+    right: 24px;
+    border-radius: 50%;
+}
+
+.modal-field {
+    margin-bottom: 8px;
+}
+
+.modal-legend {
+    color: var(--color-dark);
+     font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.modal-label {
+    display: block;
+    color: var(--color-label);
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 1.16; 
+    letter-spacing: 0.02em;
+    margin-bottom: 4px;
+}
+
+.modal-input {
+    padding-left: 16px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    height: 100%;
+    max-height: 58px;
+    width: 100%;
+    max-width: 360px;
+    border: 1px solid var(--color-dark);
+    border-radius: 4px;
+    background-color: var(--color-backdrop);  
+}
+
+.modal-input:focus {
+    outline: none;
+    border-color: var(--color-word-web);
+}
+
+.modal-input-wrap{
+position: relative;
+}
+
+.modal-input-icon {
+    position: absolute;
+    left: 16px;
+    top: 50%;
+    transform: translateY(-50%);
+   }
+
+
+
+.modal-textarea {
+    min-height: 120px;
+    width: 100%;
+    color: rgba(46, 47, 66, 0.40);
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 1.16; 
+    letter-spacing: 0.02em;
+    padding: 8px 287px 98px 16px;
+    resize: none;
+}
+
+.privacy-policy {
+
+}
+
+.text-privacy {
+color: #4D5AE5;
+font-size: 12px;
+font-weight: 400;
+line-height: 1.33;
+letter-spacing: 0.02em;
+text-decoration-line: underline;
 }
