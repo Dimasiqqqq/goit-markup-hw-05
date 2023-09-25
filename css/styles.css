@@ -637,11 +637,11 @@ pointer-events: auto;
 }
 
 .icon-close:hover {
-    fill:var(--color-brand);
+    fill: #ffffff;
 }
 
 .icon-close:focus {
-    fill:var(--color-brand);
+    fill: #ffffff;
 }
 
 .modal-field {
@@ -675,7 +675,7 @@ pointer-events: auto;
     height: 40px;
     width: 100%;
     max-width: 360px;
-    border: 1px solid rgba(46, 47, 66, 0.4);;
+    border: 1px solid rgba(46, 47, 66, 0.4);
     border-radius: 4px;
     background-color: transparent;  
     outline: transparent;
@@ -701,7 +701,7 @@ position: relative;
    }
 
 .modal-input-icon:focus {
-    fill: var(--color-word-web);
+    fill: #4D5AE5;
 } 
    
 .modal-field-last{
