@@ -623,12 +623,12 @@ pointer-events: auto;
 }
 
 .modal-close:hover {
-    background-color: var(--color-span);
+    fill: var(--color-brand);
     border: none;
 }
 
 .modal-close:focus {
-    background-color: var(--color-span);
+    fill: var(--color-brand);
     border: none;
 }
 
@@ -685,7 +685,7 @@ pointer-events: auto;
 
 .modal-input:focus {
     outline: none;
-    border-color: var(--color-word-web);
+    fill: var(--color-word-web);
 }
 
 .modal-input-wrap{
@@ -744,7 +744,7 @@ fill: var(--color-background-white);
 
 }
 
-.text-privacy {
+.span-checkbox {
     display: inline-flex;
     width: 16px;
     height: 16px; 
@@ -754,11 +754,6 @@ fill: var(--color-background-white);
     align-items: center;
     justify-content: center;
     fill: transparent;
-font-size: 12px;
-font-weight: 400;
-line-height: 1.33;
-letter-spacing: 0.02em;
-text-decoration-line: underline;
 }
 
 .chechbox-icon {
