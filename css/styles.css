@@ -619,6 +619,7 @@ pointer-events: auto;
 }
 
 .modal-label {
+    align-items: center;
     display: block;
     color: var(--color-label);
     font-size: 12px;
