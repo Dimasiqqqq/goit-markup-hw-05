@@ -537,6 +537,10 @@ margin-bottom: 16px;
     max-width: 264px;
 }
 
+.footer-social-div {
+    margin-right: 80px;
+}
+
 .footer-social-list {
     width: 40px;
     height: 40px;
@@ -563,6 +567,10 @@ margin-bottom: 16px;
 
 .footer-svg-item {
     fill: var(--color-background-white);
+}
+
+.footer-subscribe {
+
 }
 
 .footer-text {
@@ -728,13 +736,13 @@ pointer-events: auto;
 }
 
 .modal-input {
+    border: 1px solid rgba(46, 47, 66, 0.4);
     padding-left: 38px;
     padding-top: 8px;
     padding-bottom: 8px;
     height: 40px;
     width: 100%;
     max-width: 360px;
-    border: 1px solid rgba(46, 47, 66, 0.4);
     border-radius: 4px;
     background-color: transparent;  
     outline: transparent;
