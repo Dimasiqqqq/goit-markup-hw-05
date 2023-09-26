@@ -749,9 +749,9 @@ pointer-events: auto;
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
    }
 
-.modal-field .modal-input-wrap .modal-input:focus {
+.modal-input:focus {
     outline: none;
-    fill: var(--color-word-web);
+    border-color: var(--color-word-web);
 }
 
 .modal-input-wrap{
