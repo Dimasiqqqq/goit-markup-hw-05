@@ -704,11 +704,11 @@ pointer-events: auto;
 }
 
 .modal .modal-close .icon-close:hover {
-    fill: #ffffff;
+    fill: var(--color-brand);
 }
 
 .modal .modal-close .icon-close:focus {
-    fill: #ffffff;
+    fill: var(--color-brand);
 }
 
 .modal-field {
@@ -736,19 +736,18 @@ pointer-events: auto;
 }
 
 .modal-input {
-    border: 1px solid rgba(46, 47, 66, 0.4);
     padding-left: 38px;
     padding-top: 8px;
     padding-bottom: 8px;
     height: 40px;
     width: 100%;
     max-width: 360px;
+    border: 1px solid rgba(46, 47, 66, 0.4);
     border-radius: 4px;
     background-color: transparent;  
     outline: transparent;
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-   border-color: var(--color-word-web);
-}
+   }
 
 .modal-input:focus {
     outline: none;
