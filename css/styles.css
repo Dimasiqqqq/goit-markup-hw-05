@@ -606,8 +606,8 @@ margin-bottom: 16px;
     color: var(--color-brand)
 }
 
-.footer-input::placeholder {
-color: var(--color-brand);
+.modal-textarea::placeholder {
+color: rgba(46, 47, 66, 0.40);
 }
 
 .footer-button {
